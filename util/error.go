@@ -22,12 +22,6 @@ import (
 	"fmt"
 )
 
-// ForbiddenMethod 如果某个方法禁止被调用则可以抛出此错误。
-var ForbiddenMethod = errors.New("forbidden method")
-
-// UnimplementedMethod 如果某个方法未实现则可以抛出此错误。
-var UnimplementedMethod = errors.New("unimplemented method")
-
 var WrapFormat = func(err error, fileline string, format string, a ...interface{}) error {
 	if err == nil {
 		if format != "" {

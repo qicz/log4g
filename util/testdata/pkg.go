@@ -17,16 +17,12 @@
 
 package testdata
 
-func FnNoArgs() {}
-
-func FnWithArgs(i int) {}
-
 type Receiver struct{}
 
 func (r Receiver) FnNoArgs() {}
 
-func (r Receiver) FnWithArgs(i int) {}
+func (r Receiver) FnWithArgs() {}
 
 func (r *Receiver) PtrFnNoArgs() {}
 
-func (r *Receiver) PtrFnWithArgs(i int) {}
+func (r *Receiver) PtrFnWithArgs() {}
