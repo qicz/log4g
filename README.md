@@ -5,6 +5,7 @@
 [![go report](https://goreportcard.com/badge/github.com/acmestack/log4g)](https://goreportcard.com/report/github.com/acmestack/log4g)
 [![codecov report](https://codecov.io/gh/acmestack/log4g/branch/main/graph/badge.svg)](https://codecov.io/gh/acmestack/log4g)
 [![workflow](https://github.com/acmestack/log4g/actions/workflows/go.yml/badge.svg?event=push)](#)
+[![Go Reference](https://pkg.go.dev/badge/github.com/acmestack/log4g.svg)](https://pkg.go.dev/github.com/acmestack/log4g)
 [![lasted release](https://img.shields.io/github/v/release/acmestack/log4g?label=lasted)](https://github.com/acmestack/log4g/releases)
 
 ## How To Use?
