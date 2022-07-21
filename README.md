@@ -7,7 +7,7 @@
 [![workflow](https://github.com/acmestack/log4g/actions/workflows/go.yml/badge.svg?event=push)](#)
 [![lasted release](https://img.shields.io/github/v/release/acmestack/log4g?label=lasted)](https://github.com/acmestack/log4g/releases)
 
-## Install
+## How To Use?
 
 ```
 go get -u github.com/acmestack/log4g
